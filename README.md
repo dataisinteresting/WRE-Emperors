@@ -18,6 +18,6 @@ Some things to note:
 
 * Finally, thanks to David Bacci for showcasing the Coronation Arc chart marking the coronation of Charles III of the United Kingdom. I was immediately struck by the elegance of that visualization and I am grateful for the availability of his Vega specifications which inspired this project.
 
-#### Please See emperors.ipynb for methodological details.
+#### Please see emperors.ipynb for methodological details.
 
 ![Roman Emperors, 27 BCE - 395 CE](emperors.png)
