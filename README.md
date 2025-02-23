@@ -16,7 +16,7 @@ Some things to note:
 
 * I mapped the descriptions of emperors deaths in De Imperatoribus Romanis to the same death classification scheme used in the original dataset's repository, as it seemed to reasonably capture the meaningful context of all emperors' deaths in the broad manner necessary for this visualization.
 
-* Finally, thanks to David Bacci for showcasing the Coronation Arc chart marking the coronation of Charles III of the United Kingdom. I was immediately struck by the elegance of that visualization and I am grateful for the availability of his Vega specifications which inspired this project.
+* Finally, thanks to David Bacci for showcasing the [Coronation Arc chart](https://github.com/PBI-David/Deneb-Showcase/blob/main/Coronation%20Arc%20Chart/Thumbnail.png) marking the coronation of Charles III of the United Kingdom. I was immediately struck by the elegance of that visualization and I am grateful for the availability of his Vega specifications which inspired this project.
 
 #### Please see emperors.ipynb for methodological details.
 
