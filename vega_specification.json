@@ -1,0 +1,932 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "aria": false,
+    "width": 600,
+    "height": 1200,
+    "background": "#66023C",
+    "padding": {
+        "bottom": 20,
+        "left": 80,
+        "right": 20,
+        "top": 20
+    },
+    "autosize": "fit",
+    "signals": [
+        {
+            "name": "facetWidth",
+            "value": 40
+        },
+        {
+            "name": "facetHeight",
+            "value": 40
+        },
+        {
+            "name": "legendX",
+            "update": "0"
+        },
+        {
+            "name": "legendY",
+            "update": "800"
+        },
+        {
+            "name": "keyTitleX",
+            "update": "220"
+        },
+        {
+            "name": "keyTitleY",
+            "update": "legendY + 10"
+        },
+        {
+            "name": "keyX",
+            "update": "220"
+        },
+        {
+            "name": "keyY",
+            "update": "840"
+        },
+        {
+            "name": "lifeCircleColour",
+            "value": "silver"
+        },
+        {
+            "name": "legendLabelColour",
+            "value": "silver"
+        },
+        {
+            "name": "monarchLabelColour",
+            "value": "white"
+        }
+    ],
+    "data": [
+        {
+            "name": "dataset",
+            "values": [
+                {
+                    "index": 1,
+                    "name": "Augustus",
+                    "age_at_reign_start": 35,
+                    "age_at_reign_end": 76,
+                    "age_at_death": 76
+                },
+                {
+                    "index": 2,
+                    "name": "Tiberius",
+                    "age_at_reign_start": 55,
+                    "age_at_reign_end": 77,
+                    "age_at_death": 77
+                },
+                {
+                    "index": 3,
+                    "name": "Caligula",
+                    "age_at_reign_start": 25,
+                    "age_at_reign_end": 28,
+                    "age_at_death": 28
+                },
+                {
+                    "index": 4,
+                    "name": "Claudius",
+                    "age_at_reign_start": 49,
+                    "age_at_reign_end": 63,
+                    "age_at_death": 63
+                },
+                {
+                    "index": 5,
+                    "name": "Nero",
+                    "age_at_reign_start": 17,
+                    "age_at_reign_end": 30,
+                    "age_at_death": 30
+                },
+                {
+                    "index": 6,
+                    "name": "Galba",
+                    "age_at_reign_start": 65,
+                    "age_at_reign_end": 66,
+                    "age_at_death": 66
+                },
+                {
+                    "index": 7,
+                    "name": "Otho",
+                    "age_at_reign_start": 37,
+                    "age_at_reign_end": 37,
+                    "age_at_death": 37
+                },
+                {
+                    "index": 8,
+                    "name": "Vitellius",
+                    "age_at_reign_start": 54,
+                    "age_at_reign_end": 54,
+                    "age_at_death": 54
+                },
+                {
+                    "index": 9,
+                    "name": "Vespasian",
+                    "age_at_reign_start": 60,
+                    "age_at_reign_end": 70,
+                    "age_at_death": 70
+                },
+                {
+                    "index": 10,
+                    "name": "Titus",
+                    "age_at_reign_start": 39,
+                    "age_at_reign_end": 42,
+                    "age_at_death": 42
+                },
+                {
+                    "index": 11,
+                    "name": "Domitian",
+                    "age_at_reign_start": 30,
+                    "age_at_reign_end": 45,
+                    "age_at_death": 45
+                },
+                {
+                    "index": 12,
+                    "name": "Nerva",
+                    "age_at_reign_start": 66,
+                    "age_at_reign_end": 67,
+                    "age_at_death": 67
+                },
+                {
+                    "index": 13,
+                    "name": "Trajan",
+                    "age_at_reign_start": 44,
+                    "age_at_reign_end": 64,
+                    "age_at_death": 64
+                },
+                {
+                    "index": 14,
+                    "name": "Hadrian",
+                    "age_at_reign_start": 42,
+                    "age_at_reign_end": 62,
+                    "age_at_death": 62
+                },
+                {
+                    "index": 15,
+                    "name": "Antonius Pius",
+                    "age_at_reign_start": 52,
+                    "age_at_reign_end": 74,
+                    "age_at_death": 74
+                },
+                {
+                    "index": 16,
+                    "name": "Marcus Aurelius",
+                    "age_at_reign_start": 40,
+                    "age_at_reign_end": 59,
+                    "age_at_death": 59
+                },
+                {
+                    "index": 17,
+                    "name": "Lucius Verus",
+                    "age_at_reign_start": 30,
+                    "age_at_reign_end": 38,
+                    "age_at_death": 38
+                },
+                {
+                    "index": 18,
+                    "name": "Commodus",
+                    "age_at_reign_start": 15,
+                    "age_at_reign_end": 31,
+                    "age_at_death": 31
+                },
+                {
+                    "index": 19,
+                    "name": "Pertinax",
+                    "age_at_reign_start": 66,
+                    "age_at_reign_end": 67,
+                    "age_at_death": 67
+                },
+                {
+                    "index": 20,
+                    "name": "Didius Julianus",
+                    "age_at_reign_start": 60,
+                    "age_at_reign_end": 60,
+                    "age_at_death": 60
+                },
+                {
+                    "index": 21,
+                    "name": "Septimus Severus",
+                    "age_at_reign_start": 48,
+                    "age_at_reign_end": 66,
+                    "age_at_death": 66
+                },
+                {
+                    "index": 22,
+                    "name": "Caracalla",
+                    "age_at_reign_start": 10,
+                    "age_at_reign_end": 29,
+                    "age_at_death": 29
+                },
+                {
+                    "index": 23,
+                    "name": "Geta",
+                    "age_at_reign_start": 20,
+                    "age_at_reign_end": 23,
+                    "age_at_death": 23
+                },
+                {
+                    "index": 24,
+                    "name": "Macrinus",
+                    "age_at_reign_start": 52,
+                    "age_at_reign_end": 53,
+                    "age_at_death": 53
+                },
+                {
+                    "index": 25,
+                    "name": "Elagabalus",
+                    "age_at_reign_start": 15,
+                    "age_at_reign_end": 19,
+                    "age_at_death": 19
+                },
+                {
+                    "index": 26,
+                    "name": "Severus Alexander",
+                    "age_at_reign_start": 13,
+                    "age_at_reign_end": 26,
+                    "age_at_death": 26
+                },
+                {
+                    "index": 27,
+                    "name": "Maximinus I",
+                    "age_at_reign_start": 62,
+                    "age_at_reign_end": 65,
+                    "age_at_death": 65
+                },
+                {
+                    "index": 28,
+                    "name": "Gordian I",
+                    "age_at_reign_start": 79,
+                    "age_at_reign_end": 79,
+                    "age_at_death": 79
+                },
+                {
+                    "index": 29,
+                    "name": "Gordian II",
+                    "age_at_reign_start": 46,
+                    "age_at_reign_end": 46,
+                    "age_at_death": 46
+                },
+                {
+                    "index": 30,
+                    "name": "Pupienus",
+                    "age_at_reign_start": 60,
+                    "age_at_reign_end": 61,
+                    "age_at_death": 61
+                },
+                {
+                    "index": 31,
+                    "name": "Balbinus",
+                    "age_at_reign_start": 60,
+                    "age_at_reign_end": 61,
+                    "age_at_death": 61
+                },
+                {
+                    "index": 32,
+                    "name": "Gordian III",
+                    "age_at_reign_start": 13,
+                    "age_at_reign_end": 19,
+                    "age_at_death": 19
+                },
+                {
+                    "index": 33,
+                    "name": "Philip I",
+                    "age_at_reign_start": 40,
+                    "age_at_reign_end": 46,
+                    "age_at_death": 46
+                },
+                {
+                    "index": 34,
+                    "name": "Trajan Decius",
+                    "age_at_reign_start": 49,
+                    "age_at_reign_end": 50,
+                    "age_at_death": 50
+                },
+                {
+                    "index": 35,
+                    "name": "Hostilian",
+                    "age_at_reign_start": 21,
+                    "age_at_reign_end": 22,
+                    "age_at_death": 22
+                },
+                {
+                    "index": 36,
+                    "name": "Trebonianus Gallus",
+                    "age_at_reign_start": 45,
+                    "age_at_reign_end": 48,
+                    "age_at_death": 48
+                },
+                {
+                    "index": 37,
+                    "name": "Aemilian",
+                    "age_at_reign_start": 47,
+                    "age_at_reign_end": 47,
+                    "age_at_death": 47
+                },
+                {
+                    "index": 38,
+                    "name": "Valerian",
+                    "age_at_reign_start": 59,
+                    "age_at_reign_end": 65,
+                    "age_at_death": 69
+                },
+                {
+                    "index": 39,
+                    "name": "Gallienus",
+                    "age_at_reign_start": 36,
+                    "age_at_reign_end": 51,
+                    "age_at_death": 51
+                },
+                {
+                    "index": 40,
+                    "name": "Claudius Gothicus",
+                    "age_at_reign_start": 55,
+                    "age_at_reign_end": 57,
+                    "age_at_death": 57
+                },
+                {
+                    "index": 41,
+                    "name": "Quintillus",
+                    "age_at_reign_start": 58,
+                    "age_at_reign_end": 58,
+                    "age_at_death": 58
+                },
+                {
+                    "index": 42,
+                    "name": "Aurelian",
+                    "age_at_reign_start": 56,
+                    "age_at_reign_end": 61,
+                    "age_at_death": 61
+                },
+                {
+                    "index": 43,
+                    "name": "Tacitus",
+                    "age_at_reign_start": 76,
+                    "age_at_reign_end": 76,
+                    "age_at_death": 76
+                },
+                {
+                    "index": 45,
+                    "name": "Probus",
+                    "age_at_reign_start": 44,
+                    "age_at_reign_end": 50,
+                    "age_at_death": 50
+                },
+                {
+                    "index": 46,
+                    "name": "Carus",
+                    "age_at_reign_start": 53,
+                    "age_at_reign_end": 54,
+                    "age_at_death": 54
+                },
+                {
+                    "index": 49,
+                    "name": "Diocletian",
+                    "age_at_reign_start": 40,
+                    "age_at_reign_end": 60,
+                    "age_at_death": 67
+                },
+                {
+                    "index": 50,
+                    "name": "Maximian",
+                    "age_at_reign_start": 36,
+                    "age_at_reign_end": 55,
+                    "age_at_death": 61
+                },
+                {
+                    "index": 51,
+                    "name": "Constantius I",
+                    "age_at_reign_start": 55,
+                    "age_at_reign_end": 56,
+                    "age_at_death": 56
+                },
+                {
+                    "index": 52,
+                    "name": "Galerius",
+                    "age_at_reign_start": 45,
+                    "age_at_reign_end": 51,
+                    "age_at_death": 51
+                },
+                {
+                    "index": 54,
+                    "name": "Constantine the Great",
+                    "age_at_reign_start": 34,
+                    "age_at_reign_end": 65,
+                    "age_at_death": 65
+                },
+                {
+                    "index": 55,
+                    "name": "Maxentius",
+                    "age_at_reign_start": 29,
+                    "age_at_reign_end": 35,
+                    "age_at_death": 35
+                },
+                {
+                    "index": 56,
+                    "name": "Maximinus II",
+                    "age_at_reign_start": 40,
+                    "age_at_reign_end": 43,
+                    "age_at_death": 43
+                },
+                {
+                    "index": 57,
+                    "name": "Lucinius I",
+                    "age_at_reign_start": 59,
+                    "age_at_reign_end": 75,
+                    "age_at_death": 75
+                },
+                {
+                    "index": 58,
+                    "name": "Constantine II",
+                    "age_at_reign_start": 21,
+                    "age_at_reign_end": 24,
+                    "age_at_death": 24
+                },
+                {
+                    "index": 59,
+                    "name": "Consantius II",
+                    "age_at_reign_start": 20,
+                    "age_at_reign_end": 44,
+                    "age_at_death": 44
+                },
+                {
+                    "index": 60,
+                    "name": "Constans",
+                    "age_at_reign_start": 17,
+                    "age_at_reign_end": 30,
+                    "age_at_death": 30
+                },
+                {
+                    "index": 62,
+                    "name": "Julian",
+                    "age_at_reign_start": 29,
+                    "age_at_reign_end": 32,
+                    "age_at_death": 32
+                },
+                {
+                    "index": 63,
+                    "name": "Jovian",
+                    "age_at_reign_start": 32,
+                    "age_at_reign_end": 33,
+                    "age_at_death": 33
+                },
+                {
+                    "index": 64,
+                    "name": "Valentinian I",
+                    "age_at_reign_start": 43,
+                    "age_at_reign_end": 54,
+                    "age_at_death": 54
+                },
+                {
+                    "index": 65,
+                    "name": "Valens",
+                    "age_at_reign_start": 36,
+                    "age_at_reign_end": 51,
+                    "age_at_death": 51
+                },
+                {
+                    "index": 66,
+                    "name": "Gratian",
+                    "age_at_reign_start": 8,
+                    "age_at_reign_end": 24,
+                    "age_at_death": 24
+                },
+                {
+                    "index": 67,
+                    "name": "Valentinian II",
+                    "age_at_reign_start": 5,
+                    "age_at_reign_end": 21,
+                    "age_at_death": 21
+                },
+                {
+                    "index": 68,
+                    "name": "Theodosius I",
+                    "age_at_reign_start": 32,
+                    "age_at_reign_end": 48,
+                    "age_at_death": 48
+                }
+            ],
+            "transform": [
+                {
+                    "type": "collect",
+                    "sort": {
+                        "field": "index",
+                        "order": "ascending"
+                    }
+                }
+            ]
+        }
+    ],
+    "legends": [
+        {
+            "fill": "color",
+            "orient": "none",
+            "legendY": {
+                "signal": "legendY"
+            },
+            "legendX": {
+                "signal": "legendX"
+            },
+            "padding": 0,
+            "columns": 2,
+            "offset": 80,
+            "rowPadding": 5,
+            "columnPadding": 30
+        }
+    ],
+    "scales": [
+        {
+            "name": "color",
+            "type": "ordinal",
+            "range": [
+                "#FBAE17"
+            ]
+        }
+    ],
+    "marks": [
+        {
+            "type": "group",
+            "style": "cell",
+            "layout": {
+                "columns": 8,
+                "padding": {
+                    "row": 50,
+                    "column": 30
+                },
+                "align": "all",
+                "bounds": "flush",
+                "center": true
+            },
+            "marks": [
+                {
+                    "type": "group",
+                    "style": "cell",
+                    "name": "monarchs",
+                    "from": {
+                        "facet": {
+                            "data": "dataset",
+                            "name": "facet",
+                            "groupby": [
+                                "name"
+                            ],
+                            "sort": {
+                                "field": "age_at_reign_start",
+                                "order": "ascending"
+                            }
+                        }
+                    },
+                    "title": {
+                        "text": {
+                            "signal": "parent.name"
+                        },
+                        "color": {
+                            "signal": "monarchLabelColour"
+                        },
+                        "fontSize": 10,
+                        "fontWeight": "400",
+                        "dy": 4,
+                        "orient": "bottom",
+                        "lineHeight": 0,
+                        "align": "center",
+                        "anchor": "middle"
+                    },
+                    "encode": {
+                        "update": {
+                            "width": {
+                                "signal": "facetWidth"
+                            },
+                            "height": {
+                                "signal": "facetHeight"
+                            }
+                        }
+                    },
+                    "marks": [
+                        {
+                            "type": "arc",
+                            "name": "life",
+                            "from": {
+                                "data": "facet"
+                            },
+                            "encode": {
+                                "update": {
+                                    "fill": {
+                                        "signal": "lifeCircleColour"
+                                    },
+                                    "x": {
+                                        "signal": "item.mark.group.width/2"
+                                    },
+                                    "y": {
+                                        "signal": "item.mark.group.height/2"
+                                    },
+                                    "startAngle": {
+                                        "value": 0
+                                    },
+                                    "endAngle": {
+                                        "signal": "(2*PI/100)*datum[\"age_at_death\"]"
+                                    },
+                                    "innerRadius": {
+                                        "signal": "12"
+                                    },
+                                    "outerRadius": {
+                                        "signal": "13"
+                                    },
+                                    "tooltip": {
+                                        "signal": "item"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "arc",
+                            "name": "reign",
+                            "from": {
+                                "data": "facet"
+                            },
+                            "encode": {
+                                "update": {
+                                    "fill": {
+                                        "value": "#FBAE17"
+                                    },
+                                    "x": {
+                                        "signal": "item.mark.group.width/2"
+                                    },
+                                    "y": {
+                                        "signal": "item.mark.group.height/2"
+                                    },
+                                    "startAngle": {
+                                        "signal": "(2*PI/100)*datum[\"age_at_reign_start\"]"
+                                    },
+                                    "endAngle": {
+                                        "signal": "if(((2*PI/100)*datum[\"age_at_reign_end\"] - (2*PI/100)*datum[\"age_at_reign_start\"]) < 0.03, (2*PI/100)*datum[\"age_at_reign_start\"] + 0.03, (2*PI/100)*datum[\"age_at_reign_end\"])"
+                                    },
+                                    "innerRadius": {
+                                        "signal": "10"
+                                    },
+                                    "outerRadius": {
+                                        "signal": "15"
+                                    },
+                                    "tooltip": {
+                                        "signal": "item"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "name": "keyTitle",
+            "encode": {
+                "update": {
+                    "fill": {
+                        "signal": "legendLabelColour"
+                    },
+                    "text": {
+                        "value": "Life & Reign"
+                    },
+                    "fontWeight": {
+                        "value": "bold"
+                    },
+                    "fontSize": {
+                        "value": 10
+                    },
+                    "x": {
+                        "signal": "keyTitleX"
+                    },
+                    "y": {
+                        "signal": "keyTitleY"
+                    }
+                }
+            }
+        },
+        {
+            "type": "arc",
+            "name": "key",
+            "data": [
+                {}
+            ],
+            "encode": {
+                "update": {
+                    "fill": {
+                        "signal": "lifeCircleColour"
+                    },
+                    "x": {
+                        "signal": "keyX"
+                    },
+                    "y": {
+                        "signal": "keyY"
+                    },
+                    "startAngle": {
+                        "value": 0
+                    },
+                    "endAngle": {
+                        "signal": "(2*PI/100)*50"
+                    },
+                    "innerRadius": {
+                        "signal": "12"
+                    },
+                    "outerRadius": {
+                        "signal": "13"
+                    }
+                }
+            }
+        },
+        {
+            "type": "arc",
+            "name": "key2",
+            "data": [
+                {}
+            ],
+            "encode": {
+                "update": {
+                    "fill": {
+                        "signal": "lifeCircleColour"
+                    },
+                    "x": {
+                        "signal": "keyX"
+                    },
+                    "y": {
+                        "signal": "keyY"
+                    },
+                    "startAngle": {
+                        "signal": "(2*PI/100)*25"
+                    },
+                    "endAngle": {
+                        "signal": "(2*PI/100)*35"
+                    },
+                    "innerRadius": {
+                        "signal": "10"
+                    },
+                    "outerRadius": {
+                        "signal": "15"
+                    }
+                }
+            }
+        },
+        {
+            "type": "text",
+            "name": "birth",
+            "from": {
+                "data": "key2"
+            },
+            "encode": {
+                "update": {
+                    "fill": {
+                        "signal": "legendLabelColour"
+                    },
+                    "text": {
+                        "value": "birth"
+                    },
+                    "fontSize": {
+                        "value": 10
+                    },
+                    "align": {
+                        "value": "center"
+                    },
+                    "x": {
+                        "signal": "datum.x"
+                    },
+                    "y": {
+                        "signal": "datum.y - datum.outerRadius - 2"
+                    }
+                }
+            }
+        },
+        {
+            "type": "text",
+            "name": "death",
+            "from": {
+                "data": "key2"
+            },
+            "encode": {
+                "update": {
+                    "fill": {
+                        "signal": "legendLabelColour"
+                    },
+                    "text": {
+                        "value": "death"
+                    },
+                    "fontSize": {
+                        "value": 10
+                    },
+                    "align": {
+                        "value": "right"
+                    },
+                    "x": {
+                        "signal": "datum.x - datum.outerRadius"
+                    },
+                    "y": {
+                        "signal": "datum.y"
+                    }
+                }
+            }
+        },
+        {
+            "type": "text",
+            "name": "reign",
+            "from": {
+                "data": "key2"
+            },
+            "encode": {
+                "update": {
+                    "fill": {
+                        "signal": "legendLabelColour"
+                    },
+                    "text": {
+                        "value": "reign"
+                    },
+                    "fontSize": {
+                        "value": 10
+                    },
+                    "align": {
+                        "value": "left"
+                    },
+                    "x": {
+                        "signal": "datum.x + 17"
+                    },
+                    "y": {
+                        "signal": "datum.y + 20"
+                    }
+                }
+            }
+        },
+        {
+            "type": "arc",
+            "name": "key3",
+            "data": [
+                {}
+            ],
+            "encode": {
+                "update": {
+                    "fill": {
+                        "signal": "lifeCircleColour"
+                    },
+                    "x": {
+                        "signal": "keyX + 70"
+                    },
+                    "y": {
+                        "signal": "keyY"
+                    },
+                    "startAngle": {
+                        "value": 0
+                    },
+                    "endAngle": {
+                        "signal": "2*PI"
+                    },
+                    "innerRadius": {
+                        "signal": "12"
+                    },
+                    "outerRadius": {
+                        "signal": "13"
+                    }
+                }
+            }
+        },
+        {
+            "type": "text",
+            "name": "life",
+            "from": {
+                "data": "key3"
+            },
+            "encode": {
+                "update": {
+                    "fill": {
+                        "signal": "legendLabelColour"
+                    },
+                    "text": {
+                        "value": "100 yrs"
+                    },
+                    "fontSize": {
+                        "value": 6
+                    },
+                    "align": {
+                        "value": "center"
+                    },
+                    "baseline": {
+                        "value": "middle"
+                    },
+                    "x": {
+                        "signal": "datum.x"
+                    },
+                    "y": {
+                        "signal": "datum.y"
+                    }
+                }
+            }
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": "red"
+        },
+        "style": {
+            "col": {
+                "fontSize": 10
+            },
+            "cell": {
+                "strokeWidth": {
+                    "signal": "0"
+                }
+            }
+        }
+    }
+}
