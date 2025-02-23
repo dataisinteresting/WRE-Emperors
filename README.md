@@ -1,1 +1,1 @@
-See emperors.ipynb for methodological details. 
+See emperors.ipynb for acknowledgements, methodological details, and caveats. 
