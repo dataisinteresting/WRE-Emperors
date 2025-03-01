@@ -20,4 +20,9 @@ Some things to note:
 
 #### Please see emperors.ipynb for methodological details.
 
+#### Update 2025-03-01
+I posted the first iteration of this graphic to Reddit [here](https://www.reddit.com/r/dataisbeautiful/comments/1iw1qce/oc_visualizing_the_lifetimes_and_reigns_of_a/) and received very useful feedback. I made the following changes based on this feedback:
+
+* Changed the icon for Nerva's death to *natural causes* instead of *assassination*. I did have the corect manner of death recorded for Nerva, but placed the wrong icon when adding the iconography.
+
 ![Roman Emperors, 27 BCE - 395 CE](emperors.png)
