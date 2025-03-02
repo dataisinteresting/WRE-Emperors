@@ -1,64 +1,103 @@
-﻿index,ruler,probable_manner_of_death,primary_record_reviewed,record_author,notes
-1,Augustus,natural causes,https://roman-emperors.sites.luc.edu/auggie.htm,Garrett G. Fagan,Doubt cast on the persistent rumors of poisoning by Livia. 
-2,Tiberius,natural causes,https://roman-emperors.sites.luc.edu/tiberius.htm,Garrett G. Fagan,"Some suggestion of Caligula's possible involvement, but support does not seem strong."
-3,Caligula,assassination,http://roman-emperors.sites.luc.edu/gaius.htm,Garrett G. Fagan,
-4,Claudius,assassination,http://roman-emperors.sites.luc.edu/claudius.htm,Garrett G. Fagan,
-5,Nero,suicide,http://roman-emperors.sites.luc.edu/nero.htm,Herbert W. Benario,
-6,Galba,assassination,http://roman-emperors.sites.luc.edu/galba.htm,John Donahue,
-7,Otho,suicide,http://roman-emperors.sites.luc.edu/otho.htm,John Donahue,
-8,Vitellius,assassination,http://roman-emperors.sites.luc.edu/vitell.htm,John Donahue,
-9,Vespasian,natural causes,http://roman-emperors.sites.luc.edu/vespasia.htm,John Donahue,
-10,Titus,natural causes,http://roman-emperors.sites.luc.edu/titus.htm,John Donahue,"Competing narratives, but Suetonius claims death following a fever during travel. https://anastrophe.uchicago.edu/cgi-bin/perseus/citequery3.pl?dbname=LatinAugust21&query=Suet.%20Tit.10&getid=1"
-11,Domitian,assassination,http://roman-emperors.sites.luc.edu/domitian.htm,John Donahue,
-12,Nerva,natural causes,http://roman-emperors.sites.luc.edu/nerva.htm,David Wend,
-13,Trajan,natural causes,http://roman-emperors.sites.luc.edu/trajan.htm,Herbert W. Benario,
-14,Hadrian,natural causes,http://roman-emperors.sites.luc.edu/hadrian.htm,Herbert W. Benario,
-15,Antonius Pius,natural causes,http://roman-emperors.sites.luc.edu/tonypis.htm,Richard D. Weigel ,
-16,Marcus Aurelius,natural causes,http://roman-emperors.sites.luc.edu/marcaur.htm,Herbert W. Benario,
-17,Lucius Verus,natural causes,http://roman-emperors.sites.luc.edu/lverus.htm,Phoebe B. Peacock,
-18,Commodus,assassination,http://roman-emperors.sites.luc.edu/commod.htm,Dennis Quinn,
-19,Pertinax,assassination,http://roman-emperors.sites.luc.edu/pertinax.htm,Michael L. Meckler,
-20,Didius Julianus,execution,http://roman-emperors.sites.luc.edu/didjul.htm,Michael L. Meckler,
-21,Septimus Severus,natural causes,http://roman-emperors.sites.luc.edu/sepsev.htm,Michael L. Meckler,
-22,Caracalla,assassination,http://roman-emperors.sites.luc.edu/caracala.htm,Michael L. Meckler,
-23,Geta,assassination,http://roman-emperors.sites.luc.edu/geta.htm,Michael L. Meckler,
-24,Macrinus,execution,http://roman-emperors.sites.luc.edu/macrinus.htm,Michael L. Meckler,
-25,Elagabalus,assassination,http://roman-emperors.sites.luc.edu/elagabal.htm,Michael L. Meckler,
-26,Severus Alexander,assassination,http://roman-emperors.sites.luc.edu/alexsev.htm,Herbert W. Benario,
-27,Maximinus I,assassination,http://roman-emperors.sites.luc.edu/maxthrax.htm,Michael L. Meckler,
-28,Gordian I,suicide,http://roman-emperors.sites.luc.edu/gordo1.htm,Michael L. Meckler,
-29,Gordian II,died in battle,http://roman-emperors.sites.luc.edu/gordo2.htm,Michael L. Meckler,
-30,Pupienus,assassination,http://roman-emperors.sites.luc.edu/pupi.htm,Robin McMahon,
-31,Balbinus,assassination,http://roman-emperors.sites.luc.edu/pupi.htm,Robin McMahon,
-32,Gordian III,unknown,http://roman-emperors.sites.luc.edu/gordo3.htm,Michael L. Meckler,"Manner of death is a matter of considerable dispute; there being an apparent lack of consensus, the death of Gordian III is recorded as unknown here."
-33,Philip I,died in battle,http://roman-emperors.sites.luc.edu/philarab.htm,Michael L. Meckler,Sources suggesteither  death in battle or a post-battle assassination by his own soldiers. It seems reasonable in either case to categorize the context of his death as  being associated with the battle.
-34,Trajan Decius,died in battle,http://roman-emperors.sites.luc.edu/decius.htm,Geoffrey Nathan,
-35,Hostilian,natural causes,http://roman-emperors.sites.luc.edu/hehost.htm,Christopher J. Fuhrmann,
-36,Trebonianus Gallus,assassination,http://roman-emperors.sites.luc.edu/trebgall.htm,R. Scott Moore,
-37,Aemilian,assassination,http://roman-emperors.sites.luc.edu/aemaem.htm,Thomas Banchich,
-38,Valerian,died in captivity,http://roman-emperors.sites.luc.edu/gallval.htm,Richard D. Weigel,"The immediate cause of death is unclear, but sources agree on placing it in the context of his captivity."
-39,Gallienus,assassination,http://roman-emperors.sites.luc.edu/gallval.htm,Richard D. Weigel,
-40,Claudius Gothicus,natural causes,http://roman-emperors.sites.luc.edu/claudgot.htm,Richard D. Weigel ,
-41,Quintillus,unknown,http://roman-emperors.sites.luc.edu/quintil.htm,Thomas M. Banchich,Sources vary considerably; inconclusive.
-42,Aurelian,assassination,http://roman-emperors.sites.luc.edu/aurelian.htm,Christian Körner,
-43,Tacitus,assassination,http://roman-emperors.sites.luc.edu/tacitus.htm,Robin McMahon,McMahon casts doubt on the problematic Historia Augusta's description of death associated with illness. Early Byzantine sources claim assassination. https://www.livius.org/sources/content/zosimus/zosimus-new-history-1/zosimus-new-history-1.63/
-45,Probus,assassination,http://roman-emperors.sites.luc.edu/probus.htm,Robin McMahon ,
-46,Carus,natural causes,http://roman-emperors.sites.luc.edu/carus.htm,William Leadbetter,
-49,Diocletian,natural causes,http://roman-emperors.sites.luc.edu/dioclet.htm,Ralph W. Mathisen,
-50,Maximian,suicide,http://roman-emperors.sites.luc.edu/maxherc.htm,"Michael DiMaio, Jr.",
-51,Constantius I,natural causes,http://roman-emperors.sites.luc.edu/chlorus.htm,"Michael DiMaio, Jr.","Various sources appear to agree on a death by natural causes, though they appear to be especially distant from his time. https://www.jstor.org/stable/41536200"
-52,Galerius,natural causes,http://roman-emperors.sites.luc.edu/galerius.htm,"Michael DiMaio, Jr.",Sources appear to agree on a disease-related death. https://www.jstor.org/stable/26788257
-54,Constantine I,natural causes,http://roman-emperors.sites.luc.edu/conniei.htm,Hans A. Pohlsander,
-55,Maxentius,died in battle,http://roman-emperors.sites.luc.edu/maxentiu.htm,"Michael DiMaio, Jr.","The accounts by Eusebius and the like are obviously idealized, but the general notion of Maxenitus having died during the rout at the Battle of Milvan Bridge does appear to be the consensus. https://ia803409.us.archive.org/6/items/ecclesiasticalhi1850euse/ecclesiasticalhi1850euse.pdf#page=435&zoom=auto,-316,434"
-56,Maximinus II,unknown,http://roman-emperors.sites.luc.edu/daia.htm,"Michael DiMaio, Jr.",Strong support appears lacking for a specific manner of death.
-57,Licinius I,execution,http://roman-emperors.sites.luc.edu/licinius.htm,"Michael DiMaio, Jr.",Name originally rendered as 'Lucinius I' in original dataset sourced for this project; it has bee amended to 'Licinius I' here and in the final illustration.
-58,Constantine II,died in  battle,http://roman-emperors.sites.luc.edu/conii.htm,Robert Frakes,
-59,Consantius II,natural causes,http://roman-emperors.sites.luc.edu/constaii.htm,"Michael DiMaio, Jr.",https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ammian/21*.html
-60,Constans,assassination,http://roman-emperors.sites.luc.edu/consi.htm,Robert Frakes,
-62,Julian,died in battle,http://roman-emperors.sites.luc.edu/julian.htm,"Walter E. Roberts; Michael DiMaio, Jr.",
-63,Jovian,natural causes,http://roman-emperors.sites.luc.edu/jovian.htm,Thomas Banchich,
-64,Valentinian I,natural causes,http://roman-emperors.sites.luc.edu/vali.htm,Walter E. Roberts,
-65,Valens,died in battle,http://roman-emperors.sites.luc.edu/valens.htm,Noel Lenski,
-66,Gratian,assassination,http://roman-emperors.sites.luc.edu/gratian.htm,Walter E. Roberts,https://www.livius.org/sources/content/zosimus/zosimus-new-history-4/zosimus-new-history-4.35/
-67,Valentinian II,suicide,http://roman-emperors.sites.luc.edu/valenii.htm,Walter E. Roberts,Roberts suggests suicide as the likely manner of death.
-68,Theodosius I,natural causes,http://roman-emperors.sites.luc.edu/theo1.htm,David Woods,
+﻿index,ruler,probable_manner_of_death,primary_record_reviewed,record_author,notes,
+1,Augustus,natural causes,https://roman-emperors.sites.luc.edu/auggie.htm,Garrett G. Fagan,Doubt cast on the persistent rumors of poisoning by Livia. ,
+2,Tiberius,natural causes,https://roman-emperors.sites.luc.edu/tiberius.htm,Garrett G. Fagan,"Some suggestion of Caligula's possible involvement, but support does not seem strong.",
+3,Caligula,assassination,http://roman-emperors.sites.luc.edu/gaius.htm,Garrett G. Fagan,,
+4,Claudius,assassination,http://roman-emperors.sites.luc.edu/claudius.htm,Garrett G. Fagan,,
+5,Nero,suicide,http://roman-emperors.sites.luc.edu/nero.htm,Herbert W. Benario,,
+6,Galba,assassination,http://roman-emperors.sites.luc.edu/galba.htm,John Donahue,,
+7,Otho,suicide,http://roman-emperors.sites.luc.edu/otho.htm,John Donahue,,
+8,Vitellius,assassination,http://roman-emperors.sites.luc.edu/vitell.htm,John Donahue,,
+9,Vespasian,infectious disease,http://roman-emperors.sites.luc.edu/vespasia.htm,John Donahue,Suetonius's description of Vespasian's death is suggestive of infectious disease.,
+10,Titus,infectious disease,http://roman-emperors.sites.luc.edu/titus.htm,John Donahue,"Competing narratives, but Suetonius claims death following a fever during travel, suggesting the plausibility of infectious disease, as mentioned briefly here:
+(https://www.acquirepublications.org/Journal/Virology/Articles/JVVD2300101).
+Suetonius's account: https://anastrophe.uchicago.edu/cgi-bin/perseus/citequery3.pl?dbname=LatinAugust21&query=Suet.%20Tit.10&getid=1
+See also this history stack exchange discussion on the matter: https://history.stackexchange.com/questions/10383/how-did-the-emperor-titus-die",
+11,Domitian,assassination,http://roman-emperors.sites.luc.edu/domitian.htm,John Donahue,,
+12,Nerva,natural causes,http://roman-emperors.sites.luc.edu/nerva.htm,David Wend,"Apparently, death three weeks following an apparent stroke. We defer to Wend here in terms of Nerva's death largely being related to his stroke, and therefore resulting from natural causes.",
+13,Trajan,natural causes,http://roman-emperors.sites.luc.edu/trajan.htm,Herbert W. Benario,"Cassius Dio claims that near the end of his life Trajan suspected that he may have been poisoned, but that some others state his illness to be of a natural nature. See: https://penelope.uchicago.edu/Thayer/e/roman/texts/cassius_dio/68*.html",
+14,Hadrian,natural causes,http://roman-emperors.sites.luc.edu/hadrian.htm,Herbert W. Benario,See a discussion of Hadrian's maladies here: https://doi.org/10.1177/01455613211042,
+15,Antonius Pius,infectious disease,http://roman-emperors.sites.luc.edu/tonypis.htm,Richard D. Weigel ,"The Historia Augusta describes a death possibly consistent with food poisoning or other infectious disease: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Historia_Augusta/Antoninus_Pius*.html
+See also: https://pmc.ncbi.nlm.nih.gov/articles/PMC1246177/",
+16,Marcus Aurelius,infectious disease,http://roman-emperors.sites.luc.edu/marcaur.htm,Herbert W. Benario,"Cassius Dio claims that following an illness ('νόσου') striking M. Aurelius, his physicians ended his life, possibly on Commodus's behalf: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/72*.html
+https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2008.01.0593%3Abook%3D72%3Achapter%3Dpos%3D1699
+
+Herodian claims that he was stricken with a  'violent disease' in Pannonia. Herodian describes him having summoned friends and relatives and directing them to guide Commodus after his death, which is claimed to have occurred one day after this event. https://archive.org/details/HerodiansHistoryOfHisOwnTimesOrOfTheRomanEmpireAfterMarcus/HerodiansHistoryOfHisOwnTimesOrOfTheRomanEmpireAfterMarcus/page/n61/mode/2up
+
+The Historia Augusta claims that after becoming ill, he ceased eating and drinking, worsening his condition. Like Herodian, it is claimed that he died one day after conferring about his son with friends. Interestingly, it appears to be claimed that he referenced the ongoing plague during that meeting. Further, it is claimed, 'On the seventh day he was weary and admitted only his son, and even him he at once sent away in fear that he would catch the disease.'; the unreliability of the Historia Augusta notwithstanding, this may be supportive of the infectious disease hypothesis. 
+https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Historia_Augusta/Marcus_Aurelius/2*.html#28
+https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Historia_Augusta/Marcus_Aurelius/1*.html#note95
+
+The above is all sourced from translations which may lead to simplistic and erroneous conclusions; for example we should not conclude that M. Aurelius died of the Antonine Plague simply because the Historia Augusta claims he made reference to it and 'sent away' his son (and this too presupposes that the translation here is a faithful representation of the original writing). All that being said, the breadth of the sources appear to mostly agree that M. Aurelius died on campaign in Pannonia of some illness; the apparently intense onset and the descriptions we have of his condition -vague as they are- would be consistent with a death from infectious disease. The historical record showing that the Antonine plague was still ongoing around the time of his death perhaps adds some plausibility -thought not certainty- to this hypothesis.
+
+
+",
+17,Lucius Verus,natural causes,http://roman-emperors.sites.luc.edu/lverus.htm,Phoebe B. Peacock,"See Chapter 8 of 'Lucius Verus and the Roman Defence of the East' by M.C. Bishop for a discussion of plausible causes of death. Causes of a natural nature appear to be most plausible, but there doesn't appear to be quite sufficient evidence for a categorization of infectious disease despite this occurring during the Antonine Plague. 
+
+Cassius Dio apparently claims that he was poisoned, but this doesn't appear to be well supported. https://penelope.uchicago.edu/Thayer/e/roman/texts/cassius_dio/71*.html#2
+
+Tangentially, a German study on the use of 'apoplexy' by medical writers in antiquity is here: https://www.thieme-connect.com/products/ejournals/abstract/10.1055/s-2007-996355. We encounter this term frequently in reading translations of classical works and it's important to note that it is used in a different manner than the modern sense.
+
+
+ 
+",
+18,Commodus,assassination,http://roman-emperors.sites.luc.edu/commod.htm,Dennis Quinn,,
+19,Pertinax,assassination,http://roman-emperors.sites.luc.edu/pertinax.htm,Michael L. Meckler,,
+20,Didius Julianus,execution,http://roman-emperors.sites.luc.edu/didjul.htm,Michael L. Meckler,,
+21,Septimus Severus,natural causes,http://roman-emperors.sites.luc.edu/sepsev.htm,Michael L. Meckler,"Cassius Dio records '...he eventually grew very weak from gout...' and later indicates that he died from a 'sickness.'
+
+The Historia Augusta claims '...now an old man and overcome by a most grievous disease, he died at Eboracum in Britain…' https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Historia_Augusta/Septimius_Severus*.html
+
+The sources, limited as they are, seem to agree on his infirmity in old age but don't appear to indicate anything suggestive of infectious disease in particular.",
+22,Caracalla,assassination,http://roman-emperors.sites.luc.edu/caracala.htm,Michael L. Meckler,,
+23,Geta,assassination,http://roman-emperors.sites.luc.edu/geta.htm,Michael L. Meckler,,
+24,Macrinus,execution,http://roman-emperors.sites.luc.edu/macrinus.htm,Michael L. Meckler,,
+25,Elagabalus,assassination,http://roman-emperors.sites.luc.edu/elagabal.htm,Michael L. Meckler,,
+26,Severus Alexander,assassination,http://roman-emperors.sites.luc.edu/alexsev.htm,Herbert W. Benario,,
+27,Maximinus I,assassination,http://roman-emperors.sites.luc.edu/maxthrax.htm,Michael L. Meckler,,
+28,Gordian I,suicide,http://roman-emperors.sites.luc.edu/gordo1.htm,Michael L. Meckler,,
+29,Gordian II,died in battle,http://roman-emperors.sites.luc.edu/gordo2.htm,Michael L. Meckler,,
+30,Pupienus,assassination,http://roman-emperors.sites.luc.edu/pupi.htm,Robin McMahon,,
+31,Balbinus,assassination,http://roman-emperors.sites.luc.edu/pupi.htm,Robin McMahon,,
+32,Gordian III,unknown,http://roman-emperors.sites.luc.edu/gordo3.htm,Michael L. Meckler,"Manner of death is a matter of considerable dispute; there being an apparent lack of consensus, the death of Gordian III is recorded as unknown here.",
+33,Philip I,died in battle,http://roman-emperors.sites.luc.edu/philarab.htm,Michael L. Meckler,Sources suggesteither  death in battle or a post-battle assassination by his own soldiers. It seems reasonable in either case to categorize the context of his death as  being associated with the battle.,
+34,Trajan Decius,died in battle,http://roman-emperors.sites.luc.edu/decius.htm,Geoffrey Nathan,,
+35,Hostilian,infectious disease,http://roman-emperors.sites.luc.edu/hehost.htm,Christopher J. Fuhrmann,"See page 21 of The Lost History of Sextus Aurelius Victor by Justin A. Stover and George Woudhuysen for a very brief discussion of Hostilian's death and the accounts of a few different sources, one of which apparently suggests a violent end: https://edinburghuniversitypress.com/pub/media/ebooks/9781474492898.pdf",
+36,Trebonianus Gallus,assassination,http://roman-emperors.sites.luc.edu/trebgall.htm,R. Scott Moore,,
+37,Aemilian,assassination,http://roman-emperors.sites.luc.edu/aemaem.htm,Thomas Banchich,,
+38,Valerian,unknown,http://roman-emperors.sites.luc.edu/gallval.htm,Richard D. Weigel,"The immediate cause of death is unclear, but sources agree on placing it in the context of his captivity.",
+39,Gallienus,assassination,http://roman-emperors.sites.luc.edu/gallval.htm,Richard D. Weigel,,
+40,Claudius Gothicus,infectious disease,http://roman-emperors.sites.luc.edu/claudgot.htm,Richard D. Weigel ,"Apparent consensus of death due to plague. See references by Weigel, including the SHA. 
+https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Historia_Augusta/Claudius*.html",
+41,Quintillus,unknown,http://roman-emperors.sites.luc.edu/quintil.htm,Thomas M. Banchich,Sources vary considerably; inconclusive.,
+42,Aurelian,assassination,http://roman-emperors.sites.luc.edu/aurelian.htm,Christian Körner,,
+43,Tacitus,assassination,http://roman-emperors.sites.luc.edu/tacitus.htm,Robin McMahon,McMahon casts doubt on the problematic Historia Augusta's description of death associated with illness. Early Byzantine sources claim assassination. https://www.livius.org/sources/content/zosimus/zosimus-new-history-1/zosimus-new-history-1.63/,
+45,Probus,assassination,http://roman-emperors.sites.luc.edu/probus.htm,Robin McMahon ,,
+46,Carus,environmental,http://roman-emperors.sites.luc.edu/carus.htm,William Leadbetter,"Apparently *most* sources appear to agree on death by lightning strike. Added an 'environmental' category to encompass this.
+See also: https://www.jstor.org/stable/41533488",
+49,Diocletian,natural causes,http://roman-emperors.sites.luc.edu/dioclet.htm,Ralph W. Mathisen,"In De mortibus persecutorum, Lacantius describes Diocletian dying of starvation brought on by his despair. https://www.ccel.org/ccel/schaff/anf07/anf07.iii.v.xlii.html 
+If we take Lacantius  -who would have considerable motive to paint Diocletian in a tragic light given Diocletian's persecution of Christians- at his word, then it seems reasonable to characterize this as -selecting solely from the categories we have defined up to now- a death by natural causes, rather than a suicide. ",
+50,Maximian,suicide,http://roman-emperors.sites.luc.edu/maxherc.htm,"Michael DiMaio, Jr.",,
+51,Constantius I,natural causes,http://roman-emperors.sites.luc.edu/chlorus.htm,"Michael DiMaio, Jr.","Various sources apparently agree on a death by natural causes, though some appear to be especially distant from his time. https://www.jstor.org/stable/41536200
+
+Eusebius describes an apparently peaceful death but without indications of cause. https://archive.org/details/eusebius-life-of-constantine-and-orations/page/21/mode/2up?q=Constantius
+
+The Anonymous Valesianus text mentions the death of Constantius in passing, only describing that it took place in York, without further elaboration.  Valerihttps://penelope.uchicago.edu/Thayer/E/Roman/Texts/Excerpta_Valesiana/1*.html",
+52,Galerius,infectious disease,http://roman-emperors.sites.luc.edu/galerius.htm,"Michael DiMaio, Jr.","Lacantius and Eusebius describe him as succumbing to a gruesome disease. As early Christian writers, it should not be ignored that they would have motive to write disparaging accounts of Galerius due to his role in the Diocletian persecutions. Operating solely on these accounts, we agree with the popular notion that the condition described may constitute an infectious disease (while acknowledging, however, that other internal conditions such as bowel cancer have been proposed). 
+https://www.jstor.org/stable/26788257
+https://ccel.org/ccel/schaff/npnf201/npnf201.iii.xiii.xvii.html",
+54,Constantine I,natural causes,http://roman-emperors.sites.luc.edu/conniei.htm,Hans A. Pohlsander,"Eusebius's account does not clarify manner of death. https://ccel.org/ccel/schaff/npnf201/npnf201.iv.vi.iv.lxiv.html
+
+There is mention in the summary by Pohlsander of an illness in the weeks leading up to Constantine's death, but lacking further specific accounts, we assume here a death by natural causes, which appears to be the prevailing narrative.",
+55,Maxentius,died in battle,http://roman-emperors.sites.luc.edu/maxentiu.htm,"Michael DiMaio, Jr.","The accounts by Eusebius and the like are obviously idealized, but the general notion of Maxenitus having died during the rout at the Battle of Milvan Bridge does appear to be the consensus. https://ia803409.us.archive.org/6/items/ecclesiasticalhi1850euse/ecclesiasticalhi1850euse.pdf#page=435&zoom=auto,-316,434",
+56,Maximinus II,unknown,http://roman-emperors.sites.luc.edu/daia.htm,"Michael DiMaio, Jr.",Strong support appears lacking for a specific manner of death.,
+57,Licinius I,execution,http://roman-emperors.sites.luc.edu/licinius.htm,"Michael DiMaio, Jr.",Name originally rendered as 'Lucinius I' in original dataset sourced for this project; it has been amended to 'Licinius I' here and in the final illustration.,
+58,Constantine II,died in battle,http://roman-emperors.sites.luc.edu/conii.htm,Robert Frakes,,
+59,Consantius II,infectious disease,http://roman-emperors.sites.luc.edu/constaii.htm,"Michael DiMaio, Jr.",https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ammian/21*.html,
+60,Constans,assassination,http://roman-emperors.sites.luc.edu/consi.htm,Robert Frakes,,
+62,Julian,died in battle,http://roman-emperors.sites.luc.edu/julian.htm,"Walter E. Roberts; Michael DiMaio, Jr.",,
+63,Jovian,environmental,http://roman-emperors.sites.luc.edu/jovian.htm,Thomas Banchich,The view of plausible death by CO poisoning as presented in https://doi.org/10.3109/15563659809162596 is accepted here. Added an 'environmental' category to encompass this.,
+64,Valentinian I,natural causes,http://roman-emperors.sites.luc.edu/vali.htm,Walter E. Roberts,Zosimus claims a death involving the hemorrhaging of blood into Valentinian's mouth after becoming enraged. https://www.livius.org/sources/content/zosimus/zosimus-new-history-4/zosimus-new-history-4.17/,
+65,Valens,died in battle,http://roman-emperors.sites.luc.edu/valens.htm,Noel Lenski,,
+66,Gratian,assassination,http://roman-emperors.sites.luc.edu/gratian.htm,Walter E. Roberts,https://www.livius.org/sources/content/zosimus/zosimus-new-history-4/zosimus-new-history-4.35/,
+67,Valentinian II,suicide,http://roman-emperors.sites.luc.edu/valenii.htm,Walter E. Roberts,Roberts suggests suicide as the likely manner of death.,
+68,Theodosius I,natural causes,http://roman-emperors.sites.luc.edu/theo1.htm,David Woods,"Prevailing narrative appears to be a death by natural causes, potentially associated with a disease causing edema he suffered.",
