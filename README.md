@@ -10,8 +10,6 @@ Some things to note:
   - Thanks to [zonination](https://github.com/zonination) for creating this dataset.
   - Note: I did manually make some corrections to names in the final visualization.
  
-* Invididuals are presented in the order in which they first rose to office, **not** the order in which they died.
-
 * While I did rely on the aforementioned dataset for dates, I chose to review a different source for information on the deaths of emperors. I principally reviewed *[De Imperatoribus Romanis](https://isaw.nyu.edu/publications/awol-index/html/www.luc.edu/roman-emperors.html)*, a peer-reviewed encyclopedia of Roman rulers which I judged to be suitable for this project and which I noted as being used for a statistical analysis in a [recent scholarly publication](https://www.nature.com/articles/s41599-019-0366-y). It is recognized, however, that the writings there are generally decades old and may not reflect the most current scholarly consensus. Again, I invite corrections.
 
   - Thanks to Christian Körner, Christopher J. Fuhrmann, David Wend, David Woods, Dennis Quinn, Garrett G. Fagan, Geoffrey Nathan, Hans A. Pohlsander, Herbert W. Benario, John Donahue, Michael DiMaio, Jr., Michael L. Meckler, Noel Lenski, Phoebe B. Peacock, R. Scott Moore, Ralph W. Mathisen, Richard D. Weigel, Robert Frakes, Robin McMahon, Thomas Banchich, Walter E. Roberts, and William Leadbetter for their contributions to De Imperatoribus Romanis which I reviewed in annotating probable manner of death.
@@ -20,6 +18,8 @@ Some things to note:
 
 * I mapped the descriptions of emperors deaths in De Imperatoribus Romanis to the same death classification scheme used in the original dataset's repository, as it seemed to reasonably capture the meaningful context of all emperors' deaths in the broad manner necessary for this visualization.
 
+*  Invididuals are presented in the order in which they first rose to office, **not** the order in which they died.
+
 * Finally, thanks to David Bacci for showcasing the [Coronation Arc chart](https://github.com/PBI-David/Deneb-Showcase/blob/main/Coronation%20Arc%20Chart/Thumbnail.png) marking the coronation of Charles III of the United Kingdom. I was immediately struck by the elegance of that visualization and I am grateful for the availability of his Vega specifications which inspired this project.
 
 #### Please see emperors.ipynb for methodological details.
@@ -27,7 +27,7 @@ Some things to note:
 #### Update 2025-03-01
 I posted the first iteration of this graphic to Reddit [here](https://www.reddit.com/r/dataisbeautiful/comments/1iw1qce/oc_visualizing_the_lifetimes_and_reigns_of_a/) and received very useful feedback. Thanks to all those who pointed out issues. Here are some notes on changes made and thoughts related to specific feedback: 
 
-* Changed the icon for Nerva's death to *natural causes* instead of *assassination*. I did have the corect manner of death recorded for Nerva, but placed the wrong icon when adding the iconography. Thanks to the user who spotted this.
+* Changed the icon for Nerva's death to *natural causes* instead of *assassination*. I did have the correct consensus manner of death recorded for Nerva, but placed the wrong icon when adding the iconography. Thanks to the user who spotted this.
 
 * I received some feedback suggesting that one or more emperors may be in the wrong order because, for example, the graphic presents L. Verus after Marcus Aurelius despite Aurelius outliving Verus. It should be noted, however, that the graphic is not ordered by date of death, but rather date of ascension to the office of emperor. To help reduce confusion, I have added a note to that effect to this repository's ReadMe. However, in the case of Aurelius and Verus in particular, it appears that they both assumed office on the same day; given that Verus died before Aurelius, here I agree that it is a good idea to display him prior to Aurelius.
    - Please let me know if I made a mistake in order, given this context. I will also spend some time considering if simply presenting individuals in order of death would be more suitable. 
