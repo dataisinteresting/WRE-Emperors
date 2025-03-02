@@ -4,7 +4,7 @@ Here I juxtapose the reigns of a subset of Roman emperors against the (literal) 
 
 Some things to note:
 
-* The analysis here is superficial and I have not performed the kind of thorough consultation of primary sources necessary to formulate solid conclusions regarding manner of death. I am not a historian nor otherwise trained in historical methods, being simply a curious layperson with respect to history. Dates in the original dataset are also largely estimates, and so I therefore gladly invite corrections to these and other data where necessary.
+* The analysis here is superficial and I have not performed the kind of thorough consultation of sources necessary to formulate strong hypotheses or conclusions regarding emperors' manners of death. I am not a historian nor otherwise trained in historical methods, being simply a curious layperson with respect to history. Dates in the original dataset are also largely estimates, and so I therefore gladly invite corrections to these and other data where necessary.
 
 * Dates here are sourced from a dataset compiled by others [here](https://github.com/zonination/emperors). Note in particular that the absolute values of BCE dates are decreased by 1 to conform to the ISO 8601 standard.
   - Thanks to [zonination](https://github.com/zonination) for creating this dataset.
